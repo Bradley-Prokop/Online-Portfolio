@@ -1,0 +1,131 @@
+/*index.html*/
+#titles{
+    color: white;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    border: 15px solid rgb(3, 151, 250);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    position: relative;
+}
+
+#title{
+    font-size: 50px;
+}
+
+#subtitle{
+    font-size: 45px;
+    margin-top: -35px;
+}
+
+/*Start programming language header and list*/
+#headerAndList{
+   position: relative;
+   margin-top: 20px;
+}
+
+#programangheader{
+    font-size: 25px;
+    text-align: center;
+}
+
+#list{
+    margin-left: 200px;
+}
+
+.div-listitem{
+    font-size: 20px;
+    display: inline-block;
+}
+
+#html-css-logo{
+    margin-right: 40px;
+    margin-left: 70px;
+}
+
+#python-logo{
+    margin-left: 50px;
+}
+
+#javascript-logo{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#springboot-logo{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/*End programming language list*/
+
+/*Start projects list*/
+#projectContainer {
+    display: inline-block;
+}
+
+#projects{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#hint{
+    text-indent: 45px;
+    font-size: x-large;
+}
+
+.projectItems{
+    margin-left: 150px;
+}
+
+.projectItems h3{
+    color: white;
+}
+
+#mot-poster{
+    font-size: large;
+}
+/*end projects list*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    border: solid white 2pt;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/*media statements*/
+@media (max-width: 800px){
+
+    #headerAndList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin: 0;
+     }
+
+     #java-logo{
+        padding-left: 55px;
+     }
+    
+    #projectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .projectItems{
+        padding-top: 75px;
+        padding-left: 0px;
+    }
+}
